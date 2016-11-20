@@ -5,7 +5,7 @@
 
 ```
 {plugins, [
-    {rebar_localdep, {git, "https://github.com/alinpopa/rebar3-localdep-plugin.git"}}
+    {rebar_localdep, {git, "https://github.com/alinpopa/rebar3-localdep-plugin.git", {branch, "master"}}}
 ]}.
 ```
 
