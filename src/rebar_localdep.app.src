@@ -1,0 +1,7 @@
+{application, rebar_localdep, [
+  {description, "Plugin to enable local dependencies"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []}
+]}.
