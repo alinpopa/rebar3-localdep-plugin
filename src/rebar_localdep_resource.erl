@@ -12,7 +12,7 @@ lock(_Dir, Source) ->
     Source.
 
 needs_update(_AppDir, _Resource) ->
-    false.
+    true.
 
 download(AppDir, {localdep, Path}, _State) ->
     download(AppDir, {localdep, Path, {exclude, []}}, _State);
